@@ -1,0 +1,51 @@
+.homeWrapper{
+    height:90%;
+}
+
+.chatList{
+    box-shadow:1px 0px 3px grey;
+    flex-basis: unset !important;
+    flex-grow: unset !important;
+    
+}
+
+.inputBox{
+    width:100%;
+}
+input[type=text] {
+    width:80%;
+    padding:5px; 
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.message{
+}
+
+.myMessage{
+    text-align: right
+}
+.userTyping{
+    height: 5%;
+}
+
+.wrap{
+    height: 100%;
+    flex-wrap: nowrap!important
+}
+
+.theirMessage{
+    text-align: left
+}
+
+.selected{
+}
+
+
+.messageHistory{
+    padding: 20px;
+    height:80%;
+    overflow-y:scroll;
+    
+}

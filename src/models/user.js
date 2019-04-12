@@ -1,0 +1,22 @@
+export class User {
+    constructor(dbuser){
+        this._id=dbuser.id;
+        this.email=dbuser.email;
+        this.password=dbuser.password;
+        this.role=dbuser.role;
+        this.created_on=dbuser.created_on;
+        this.last_login=dbuser.last_login;
+        this.firstname=dbuser.firstname;
+        this.lastname=dbuser.lastname;
+        this.nickname=dbuser.nickname;
+    }
+    _id;
+    email;
+    password;
+    role;
+    created_on;
+    last_login;
+    firstname;
+    lastname;
+    nickname;
+}
